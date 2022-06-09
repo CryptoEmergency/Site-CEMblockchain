@@ -1,0 +1,376 @@
+<html>
+    <head>
+        <title>Crypto Emergency Blockchain</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="block_wrapper">
+                <a href="/"><img src="/assets/img/logo.svg"></a>
+                <div class="header_menu">
+                    <div class="navigation_menu">
+						<div class="navigation_item">
+                            <span>Services<img src="/assets/img/arrow_bottom.svg"></span>
+                            <div class="navigation_item_full">
+                                <div class="navigation_item_full_inner">
+									<a href="https://crypto-emergency.com" target="_blank">Crypto Emergency</a>
+                                    <a href="https://cemscan.com" target="_blank">CEM Explorer</a>
+									<a href="https://cemwallet.com" target="_blank">CEM Wallet</a>
+									<a href="https://cemnft.com" target="_blank">CEM NFT</a>
+									<a href="https://cemswap.com" target="_blank">CEM Swap</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navigation_item">
+                            <span>Developers<img src="/assets/img/arrow_bottom.svg"></span>
+                            <div class="navigation_item_full">
+                                <div class="navigation_item_full_inner">
+                                    <a href="/api/">API info</a>
+                                    <a href="/assets/docs/LitePaperEn.pdf" target="_blank">Lite Paper</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navigation_item">
+                            <span>Community<img src="/assets/img/arrow_bottom.svg"></span>
+                            <div class="navigation_item_full">
+                                <div class="navigation_item_full_inner">
+                                    <a href="https://github.com/CryptoEmergency" target="_blank" rel="nofollow noopener">Github</a>
+                                    <a href="/#contact">Contact</a>
+                                    <a href="/add-network/">Add Network Instruction</a>
+                                </div>
+                            </div>
+                        </div>
+						<div class="navigation_item">
+                            <span>About<img src="/assets/img/arrow_bottom.svg"></span>
+                            <div class="navigation_item_full">
+                                <div class="navigation_item_full_inner">
+                                    <a href="https://crypto-emergency.com/en/about/" target="_blank">Team</a>
+                                    <a href="/roadmap/">Roadmap</a>
+                                    <a href="/#tokenomics">Tokenomics</a>
+                                    <a href="/terms/">Private police</a>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="lang_select">
+                        <div class="navigation_item">
+                            <span><img src="/assets/img/language_icon.svg">Language<img src="/assets/img/arrow_bottom.svg"></span>
+                            <div class="navigation_item_full">
+                                <div class="navigation_item_full_inner">
+                                    <a href="#">English</a>
+                                    <a href="/ru/api/">Russian</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="burger_menu_icon" src="/assets/img/burger_menu.svg">
+            </div>
+        </header>
+        <div class="api block_wrapper">
+            <h2>API Info</h2>
+            <p>web3_clientVersion</p>
+            <span>Returns the current client version.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":67}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>web3_sha3</p>
+            <span>Returns Keccak-256 (not the standardized SHA3-256) of the given data.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"web3_sha3","params":["0x68656c6c6f20776f726c64"],"id":64}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>net_version</p>
+            <span>Returns the current network id.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"net_version","params":[],"id":193}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>net_peerCount</p>
+            <span>Returns number of peers currently connected to the client.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"net_peerCount","params":[],"id":193}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>net_listening</p>
+            <span>Returns true if client is actively listening for network connections.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"net_listening","params":[],"id":193}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>eth_syncing</p>
+            <span>Returns an object with data about the sync status or false.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"eth_syncing","params":[],"id":193}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>eth_coinbase</p>
+            <span>Returns the client coinbase address.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"eth_coinbase","params":[],"id":193}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>eth_gasPrice</p>
+            <span>Returns the current price per gas in wei.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"eth_gasPrice","params":[],"id":193}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>eth_accounts</p>
+            <span>Returns a list of addresses owned by client.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"eth_accounts","params":[],"id":193}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>eth_blockNumber</p>
+            <span>Returns the number of most recent block.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":193}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>eth_getBalance</p>
+            <span>Returns the balance of the account of given address.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"eth_getBalance","params":["0x407d73d8a49eeb85d32cf465507dd71d507100c1", "latest"],"id":193}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>eth_getTransactionCount</p>
+            <span>Returns the number of transactions sent from an address.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"eth_getTransactionCount","params":["0xfe4dc9501fbc73d49da08de177b523ab410d6c33","latest"],"id":193}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>eth_getBlockTransactionCountByHash</p>
+            <span>Returns the number of transactions in a block from a block matching the given block hash.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByHash","params":["0xb903239f8543d04b5dc1ba6579132b143087c68db1b2168786408fcbce568238"],"id":1}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>eth_getBlockTransactionCountByNumber</p>
+            <span>Returns the number of transactions in a block matching the given block number.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByNumber","params":["0xe8"],"id":193}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>eth_getUncleCountByBlockHash</p>
+            <span>Returns the number of uncles in a block from a block matching the given block hash.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"eth_getUncleCountByBlockHash","params":["0xb903239f8543d04b5dc1ba6579132b143087c68db1b2168786408fcbce568238"],"id":1}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>
+            <p>eth_getCode</p>
+            <span>Returns code at a given address.</span>
+            <div class="response_container">
+                <div class="response" contenteditable="true">{"jsonrpc":"2.0","method":"eth_getCode","params":["0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b", "0x2"],"id":1}</div>
+                <div class="result"></div>
+                <div class="send">send</div>
+            </div>           
+        </div>
+        <footer>
+            <div class="footer_container block_wrapper">
+                <div class="footer_top">
+                    <div class="footer_connect">
+                        <img src="/assets/img/footer_logo.svg">
+                        <div onclick="addCEMChain()"> <img src="/assets/img/metamask.svg"> Add Network </div>
+                    </div>
+                    <div class="footer_navigation">
+                        <div>
+                            <p>Developers</p>
+                            <a href="/api/">API info</a>
+                            <a href="/assets/docs/LitePaperEn.pdf" target="_blank">Lite Paper</a>
+							<a href="https://github.com/CryptoEmergency" target="_blank" rel="nofollow noopener">Github</a>
+                        </div>
+                        <div>
+                            <p>Services</p>
+                             <a href="https://cemwallet.com" target="_blank">CEM Wallet</a>
+								<a href="https://cemnft.com" target="_blank">CEM NFT</a>
+								<a href="https://cemswap.com" target="_blank">CEM Swap</a>
+                        </div>
+                        <div>
+                            <p>About</p>
+                            <a href="https://crypto-emergency.com/en/about/" target="_blank">Team</a>
+                            <a href="/roadmap/">Roadmap</a>
+                            <a href="/#tokenomics">Tokenomics</a>
+                            <a href="/terms/">Private police</a>
+                        </div>
+                        <div>
+                            <p>Explorer</p>
+                            <a href="https://cemscan.com" target="_blank">CEM Explorer</a>
+							<a href="https://crypto-emergency.com" target="_blank">Crypto Emergency</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <div class="footer_socials">
+						    <img class="footer_flags" src="/assets/icon/ru.svg">
+                            <a target="_blank" href="https://t.me/cryptoemergencychat" rel="nofollow noopener">
+                               <img src="/assets/icon/telegram_dark.svg">
+                            </a>
+						    <a target="_blank" href="https://vm.tiktok.com/ZSefEMs2c" rel="nofollow noopener">
+                                <img src="/assets/icon/tiktok_dark.svg">
+                            </a>
+						    <a target="_blank" href="https://vk.com/cryptoemergency" rel="nofollow noopener">
+                                <img src="/assets/icon/vk_dark.svg">
+                            </a>
+						    <a target="_blank" href="https://instagram.com/cryptoemergencyrussia" rel="nofollow noopener">
+                                <img src="/assets/icon/instagram_dark.svg">
+                            </a>
+						     <a href="https://crypto-emergency.com/ru" target="_blank">
+                                <img src="/assets/icon/cem_dark.svg">
+                            </a>
+						</div>
+                        <div class="footer_socials">
+						    <img class="footer_flags" src="/assets/icon/gb.svg">
+						    <a target="_blank" href="https://t.me/emergencycrypto" rel="nofollow noopener">
+                                <img src="/assets/icon/telegram_dark.svg">
+                            </a>
+						    <a target="_blank" href="https://vm.tiktok.com/ZSefExJrr" rel="nofollow noopener">
+                                <img src="/assets/icon/tiktok_dark.svg">
+                            </a>
+						    <a target="_blank" href="https://www.facebook.com/groups/cryptoemergency" rel="nofollow noopener">
+                                <img src="/assets/icon/facebook_dark.svg">
+                            </a>
+						    <a target="_blank" href="https://instagram.com/cryptoemergency" rel="nofollow noopener">
+                                <img src="/assets/icon/instagram_dark.svg">
+                            </a>
+                            <a href="https://discord.com/invite/Qdm7W8DjYc" target="_blank" rel="nofollow noopener">
+                                <img src="/assets/icon/discord_dark.svg">
+                            </a>
+                            <a href="https://github.com/CryptoEmergency" target="_blank" rel="nofollow noopener">
+                                <img src="/assets/icon/github_dark.svg">
+                            </a>
+                            <a href="https://twitter.com/cryptoemergency" target="_blank" rel="nofollow noopener">
+                                <img src="/assets/icon/twitter_dark.svg">
+                            </a>
+						     <a href="https://www.reddit.com/user/Crypto_Emergency" target="_blank" rel="nofollow noopener">
+                                <img src="/assets/icon/reddit_dark.svg">
+                            </a>
+						     <a href="https://youtube.com/channel/UCb9Fx-fNikzs-OZwnTXepLg" target="_blank" rel="nofollow noopener">
+                                <img src="/assets/icon/youtube_dark.svg">
+                            </a>
+                            <a href="https://crypto-emergency.com" target="_blank">
+                                <img src="/assets/icon/cem_dark.svg">
+                            </a>
+						</div>
+                    <span>Crypto Emergency. All rights reserved © 2022</span>
+                </div>
+            </div>
+        </footer>
+
+        <div class="modal fade" id="burgerMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Menu</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+					<div class="navigation_item">
+                            <span>Services</span>
+                            <div class="burger_menu_item">
+                                <a href="https://crypto-emergency.com" target="_blank">Crypto Emergency</a>
+                                    <a href="https://cemscan.com" target="_blank">CEM Explorer</a>
+									<a href="https://cemwallet.com" target="_blank">CEM Wallet</a>
+									<a href="https://cemnft.com" target="_blank">CEM NFT</a>
+									<a href="https://cemswap.com" target="_blank">CEM Swap</a>
+                            </div>
+                        </div>
+                        <div class="navigation_item">
+                            <span>Developers</span>
+                            <div class="burger_menu_item">
+                               <a href="/api/">API info</a>
+                               <a href="/assets/docs/LitePaperEn.pdf" target="_blank">Lite Paper</a>
+                            </div>
+                        </div>
+                        
+                        <div class="navigation_item">
+                            <span>About</span>
+                            <div class="burger_menu_item">
+                                <a href="https://crypto-emergency.com/en/about/" target="_blank">Team</a>
+                                <a href="/roadmap/">Roadmap</a>
+                                <a href="/#tokenomics">Tokenomics</a>
+                                <a href="/terms/">Private police</a>
+                            </div>
+                        </div>
+                        <div class="navigation_item">
+                            <span>Community</span>
+                            <div class="burger_menu_item">
+									<a href="https://github.com/CryptoEmergency" target="_blank" rel="nofollow noopener">Github</a>
+                                    <a href="/#contact">Contact</a>
+                                    <a href="/add-network/">Add Network Instruction</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="burger_socials">
+                       <a target="_blank" href="https://t.me/emergencycrypto" rel="nofollow noopener">
+                            <img src="/assets/icon/telegram_dark.svg">
+                        </a>
+						<a target="_blank" href="https://vm.tiktok.com/ZSefExJrr" rel="nofollow noopener">
+                            <img src="/assets/icon/tiktok_dark.svg">
+                        </a>
+						<a target="_blank" href="https://www.facebook.com/groups/cryptoemergency" rel="nofollow noopener">
+                            <img src="/assets/icon/facebook_dark.svg">
+                        </a>
+						<a target="_blank" href="https://instagram.com/cryptoemergency" rel="nofollow noopener">
+                            <img src="/assets/icon/instagram_dark.svg">
+                        </a>
+                        <a href="https://discord.com/invite/Qdm7W8DjYc" target="_blank" rel="nofollow noopener">
+                            <img src="/assets/icon/discord_dark.svg">
+                        </a>
+                        <a href="https://github.com/CryptoEmergency" target="_blank" rel="nofollow noopener">
+                            <img src="/assets/icon/github_dark.svg">
+                        </a>
+                        <a href="https://twitter.com/cryptoemergency" target="_blank" rel="nofollow noopener">
+                            <img src="/assets/icon/twitter_dark.svg">
+                        </a>
+						 <a href="https://www.reddit.com/user/Crypto_Emergency" target="_blank" rel="nofollow noopener">
+                            <img src="/assets/icon/reddit_dark.svg">
+                        </a>
+						 <a href="https://youtube.com/channel/UCb9Fx-fNikzs-OZwnTXepLg" target="_blank" rel="nofollow noopener">
+                            <img src="/assets/icon/youtube_dark.svg">
+                        </a>
+                        <a href="https://crypto-emergency.com" target="_blank">
+                            <img src="/assets/icon/cem_dark.svg">
+                        </a>
+                    </div>
+                    <div class="lang_select">
+                        <div class="navigation_item">
+                            <span><img src="/assets/img/language_icon.svg">Language</span>
+                            <div class="burger_menu_item">
+                                <a href="#">English</a>
+                                <a href="/ru/api/">Russian</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="/assets/js/jQuery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+        <script src="https://unpkg.com/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+        <script src="/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/js/web3.js"></script>
+        <script src="/assets/js/script.js"></script>
+    </body>
+</html>
